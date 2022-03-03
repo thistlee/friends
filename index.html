@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+
+    <title>f.r.i.e.n.d.s</title>
+</head>
+
+<body>
+
+
+    <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md  px-0 fixed-top">
+        <a href="friends.html" class="navbar-brand">F<span style="color:red">.</span>R<span style="color:skyblue">.</span>I<span
+                style="color:yellow">.</span>E<span style="color:red">.</span>N<span style="color:yellow">.</span>D<span
+                style="color:skyblue">.</span>S</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">FOOD</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">FOOLS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div id="heading" class="text-center text-white d-none d-md-block mb-5 mb-md-0">
+                    <h1 class="">F<span style="color:red">.</span>R<span style="color:skyblue">.</span>I<span
+                            style="color:yellow">.</span>E<span style="color:red">.</span>N<span
+                            style="color:yellow">.</span>D<span style="color:skyblue">.</span>S</h1>
+                    <p>I'll be there for you<br>
+                        (When the rain starts to pour)<br>
+                        I'll be there for you<br>
+                        (Like I've been there before)<br>
+                        I'll be there for you<br>
+                        ('Cause you're there for me too)</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img align="right" class="img-fluid  "
+                    src="image5.jpg"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="image2.jpg" alt="">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2 mb-5 mb-md-0">
+            <div class="row justify-content-center">
+                <div id="infinity" col-10 col-lg-8>
+                    <h1 class="d-none d-md-inline">&#8734</h1>
+                    <h2>F<span style="color:red">.</span>R<span style="color:skyblue">.</span>I<span
+                        style="color:yellow">.</span>E<span style="color:red">.</span>N<span
+                        style="color:yellow">.</span>D<span style="color:skyblue">.</span>S</h2>
+                    <p class="lead">So no one told you life was gonna be this way<br>
+                        Your job's a joke, you're broke<br>
+                        Your love life's DOA<br>
+                        It's like you're always stuck in second gear<br>
+                        When it hasn't been your day, your week, your month<br>
+                        Or even your year, but</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+        <script>
+         function changeBg(){
+             var nav = document.getElementById('mainNavbar');
+             var scrollValue = window.scrollY;
+             if(scrollValue< 150){
+                 nav.classList.remove('bgColor');
+             }
+             else{
+                 nav.classList.add('bgColor');
+             }
+         }
+         window.addEventListener('scroll',changeBg);
+        </script>
+        <!--#BFE3EC-->
+</body>
+
+</html>
